@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ActionPackage>
+		<Action isActive="yes" isFolder="no" isPushButton="no" isFlatButton="no" useCustomLayout="no">
+			<name>def spells</name>
+			<packageName></packageName>
+			<script>send("c 6")
+tempTimer(2, [[send("c 16")]])
+tempTimer(6, [[send("c 22")]])
+tempTimer(8, [[send("c 23")]])
+tempTimer(10, [[send("c 25")]])
+tempTimer(12, [[send("c 29")]])
+tempTimer(14, [[send("c 32")]])
+tempTimer(16, [[send("c 35")]])</script>
+			<css></css>
+			<commandButtonUp></commandButtonUp>
+			<commandButtonDown></commandButtonDown>
+			<icon></icon>
+			<orientation>1</orientation>
+			<location>0</location>
+			<posX>0</posX>
+			<posY>0</posY>
+			<mButtonState>1</mButtonState>
+			<sizeX>0</sizeX>
+			<sizeY>0</sizeY>
+			<buttonColumn>1</buttonColumn>
+			<buttonRotation>0</buttonRotation>
+			<buttonColor>#ffffff</buttonColor>
+		</Action>
+	</ActionPackage>
+</MudletPackage>
