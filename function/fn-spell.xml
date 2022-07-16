@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<ScriptPackage>
+		<Script isActive="yes" isFolder="no">
+			<name>fn_spell</name>
+			<packageName></packageName>
+			<script>function fn_spell( word, r, g, b )
+    i = 0
+    word_count = 1
+    while i &gt; -1 do
+        i = selectString(word, word_count)
+        if i == -1 then
+             --"monster found"
+             send("c 9 on " .. matches[3])
+             return
+        end
+        word_count = word_count +1
+        setBgColor( r, g, b )
+    end
+  end</script>
+			<eventHandlerList />
+		</Script>
+	</ScriptPackage>
+</MudletPackage>
